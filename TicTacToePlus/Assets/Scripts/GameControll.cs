@@ -6,6 +6,7 @@ public class GameControll : MonoBehaviour {
 
     //gameobjects to store the balcksquare and greensquare
     public GameObject cross, naught;
+    public GameLogic gameLogic;
 
     //used to show the state of the cell
     public enum cellState { empty, cross, naught };
@@ -21,11 +22,13 @@ public class GameControll : MonoBehaviour {
         {
             Instantiate(cross, clickedCell.transform.position, Quaternion.identity);
             playerTurn = cellState.naught;
+            gameLogic.addPiece((int)clickedCell.transform.position.x + 1, (int)clickedCell.transform.position.y + 1, 1);
         }
         else
         {
             Instantiate(naught, clickedCell.transform.position, Quaternion.identity);
             playerTurn = cellState.cross;
+            gameLogic.addPiece((int)clickedCell.transform.position.x + 1, (int)clickedCell.transform.position.y + 1, 2);
         }
         Destroy(clickedCell.gameObject);
 

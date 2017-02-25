@@ -12,6 +12,7 @@ public class rayCastHit : MonoBehaviour {
             castRay();
         }
     }
+    //gameObject for GameController
 
     //gameobjects for each tile
     public GameObject TL, TM, TR, ML, MM, MR, BL, BM, BR;

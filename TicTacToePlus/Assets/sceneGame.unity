@@ -671,9 +671,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1025374917}
   - component: {fileID: 1025374916}
+  - component: {fileID: 1025374918}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -691,6 +692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cross: {fileID: 2099398718}
   naught: {fileID: 2029866046}
+  gameLogic: {fileID: 1025374918}
   playerTurn: 0
 --- !u!4 &1025374917
 Transform:
@@ -705,6 +707,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1025374918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1025374915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb1dc83ccaedbf4e9e380323bbd07ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1153431983
 Prefab:
   m_ObjectHideFlags: 0
@@ -815,7 +828,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1.7155867
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
