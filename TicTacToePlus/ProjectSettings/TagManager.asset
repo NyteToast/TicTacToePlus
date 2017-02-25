@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Board
+    uniqueID: 2906018851
+    locked: 0
+  - name: Border
+    uniqueID: 38399651
+    locked: 0
+  - name: Markers
+    uniqueID: 2630553115
+    locked: 0
+  - name: Overlay
+    uniqueID: 233558235
+    locked: 0
