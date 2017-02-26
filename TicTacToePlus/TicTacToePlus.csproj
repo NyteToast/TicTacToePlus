@@ -82,8 +82,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameControll.cs" />
-    <Compile Include="Assets\Scripts\TestScript.cs" />
-    <Compile Include="Assets\Scripts\buttonPress.cs" />
+    <Compile Include="Assets\Scripts\changeScene.cs" />
+    <Compile Include="Assets\Scripts\pauseMenu.cs" />
     <Compile Include="Assets\Scripts\rayCastHit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
