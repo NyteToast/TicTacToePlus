@@ -233,8 +233,8 @@ GameObject:
   - component: {fileID: 314428358}
   - component: {fileID: 314428360}
   - component: {fileID: 314428359}
-  - component: {fileID: 314428362}
   - component: {fileID: 314428361}
+  - component: {fileID: 314428362}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -303,7 +303,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 314428357}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -316,7 +316,7 @@ Animator:
   m_GameObject: {fileID: 314428357}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6e6be8cf067ab77479d7a97b6811db24, type: 2}
+  m_Controller: {fileID: 9100000, guid: d0988b04cbceec946a40c39a0cd82ff0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
